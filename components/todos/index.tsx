@@ -8,7 +8,7 @@ import {addTodo} from "../../Redux/features/todo/todoControlSlic";
 
 const MyTodos = () => {
     const todoState = useSelector((state: RootState) => state.todos)
-    const {isLoading, tasks} = todoState
+    const { tasks} = todoState
     const dispatch = useDispatch()
     const [task, setTask] = useState('')
     const handleTask = () => {
@@ -21,6 +21,7 @@ const MyTodos = () => {
             toast.success('Added')
         }, 1000)
     }
+
 
     return (
         <div>
