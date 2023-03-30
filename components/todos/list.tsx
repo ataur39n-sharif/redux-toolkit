@@ -8,6 +8,7 @@ import {deleteTodo} from "../../Redux/features/todo/todoControlSlic";
 
 const TodoList = ({taskList}: { taskList: string[] }) => {
     const dispatch = useDispatch()
+
     return (
         <div>
             <ListGroup as="ol" numbered>
