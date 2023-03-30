@@ -1,15 +1,14 @@
 import {configureStore} from "@reduxjs/toolkit";
-import todoReducer from "../features/todo/todoControlSlic";
+import todoReducer from "../features/todos/todoControlSlic";
+import blogReducer from "../features/blogs/blogSlice";
 
-// export interface RootState {
-//     todo: ITodoState
-// }
 export type RootState = ReturnType<typeof store.getState>
 export type AppDispatch = typeof store.dispatch
 
 const store = configureStore({
     reducer: {
-        todos: todoReducer
+        todos: todoReducer,
+        posts: blogReducer
     }
 })
 

@@ -4,12 +4,13 @@ import {RootState} from "../../Redux/app/store";
 import {toast, Toaster} from "react-hot-toast";
 import {Button, Form, InputGroup} from "react-bootstrap";
 import TodoList from "./list";
-import {addTodo} from "../../Redux/features/todo/todoControlSlic";
+import {addTodo} from "../../Redux/features/todos/todoControlSlic";
 
 const MyTodos = () => {
     const todoState = useSelector((state: RootState) => state.todos)
     const { tasks} = todoState
     const dispatch = useDispatch()
+    // const dispatch = useDispatch<ThunkDispatch<{}, {}, AnyAction>>()
     const [task, setTask] = useState('')
     const handleTask = () => {
         toast.loading('wait')

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {Col, Row} from "react-bootstrap";
 import MyTodos from "../components/todos";
+import Blogs from "../components/blogs";
 
 export default function Home() {
     return (
@@ -15,9 +16,9 @@ export default function Home() {
             <main className={styles.main}>
                 <h1 className={'mb-5'}>React-toolkit</h1>
                 <Row>
-                    {/*<Col>*/}
-                    {/*    /!*<Users/>*!/*/}
-                    {/*</Col>*/}
+                    <Col>
+                        <Blogs/>
+                    </Col>
                     <Col>
                         <MyTodos/>
                     </Col>

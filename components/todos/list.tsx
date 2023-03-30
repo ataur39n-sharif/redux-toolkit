@@ -4,7 +4,7 @@ import {FaRegEdit} from "react-icons/fa";
 import {AiFillDelete} from "react-icons/ai";
 import {toast} from "react-hot-toast";
 import {useDispatch} from "react-redux";
-import {deleteTodo} from "../../Redux/features/todo/todoControlSlic";
+import {deleteTodo} from "../../Redux/features/todos/todoControlSlic";
 
 const TodoList = ({taskList}: { taskList: string[] }) => {
     const dispatch = useDispatch()
