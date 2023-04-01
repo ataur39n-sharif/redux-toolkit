@@ -1,1 +1,1 @@
-## Redux-toolkit [![wakatime](https://wakatime.com/badge/user/fa185e46-0344-4585-b3ad-55f0e4fd8daf/project/91a21978-e989-4217-98db-35eb3190f9a5.svg)](https://wakatime.com/badge/user/fa185e46-0344-4585-b3ad-55f0e4fd8daf/project/91a21978-e989-4217-98db-35eb3190f9a5)
+## Redux-toolkit [![wakatime](https://wakatime.com/badge/github/ataur39n-sharif/redux-toolkit-main.svg)](https://wakatime.com/badge/github/ataur39n-sharif/redux-toolkit-main)
