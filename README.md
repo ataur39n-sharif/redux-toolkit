@@ -1,1 +1,1 @@
-## React-Redux  [![wakatime](https://wakatime.com/badge/github/ataur39n-sharif/react-redux.svg)](https://wakatime.com/badge/github/ataur39n-sharif/react-redux)
+## Redux-toolkit [![wakatime](https://wakatime.com/badge/github/ataur39n-sharif/redux-toolkit-main.svg)](https://wakatime.com/badge/github/ataur39n-sharif/redux-toolkit-main)
